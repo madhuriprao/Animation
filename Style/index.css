@@ -1,0 +1,66 @@
+nav ul {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+}
+.Logo {
+  margin-top: 37px;
+  margin-left: 97px;
+}
+
+.Diet {
+  margin-top: 37px;
+  margin-left: 320px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+}
+
+.Recipes,
+.Yoga {
+  margin-top: 37px;
+  margin-left: 29px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.Diet:hover,
+.Recipes:hover,
+.Yoga:hover {
+  cursor: pointer;
+  background-color: #ff9900;
+  transform: scale(1.2);
+  color: white;
+}
+section {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Title {
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 116px;
+  margin-left: 145px;
+  width: 100%;
+  max-width: 518px;
+  height: 108px;
+  letter-spacing: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.Info {
+  margin-top: 30px;
+  margin-left: 145px;
+  max-width: 583.48px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  font-family: "Poppins", sans-serif;
+}
