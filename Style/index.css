@@ -37,7 +37,14 @@ nav li {
   display: inline-block;
 }
 
-.Aboutus:hover,
+.Aboutus:hover {
+  cursor: pointer;
+  background-color: #93c572;
+  transform: scale(1.2);
+  color: black;
+  transition: all 0.9s ease-in-out;
+}
+
 .Diet:hover,
 .Yoga:hover {
   cursor: pointer;
@@ -53,7 +60,7 @@ section {
 .About {
   margin-top: 1px;
   margin-left: 40px;
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   font-size: 20px;
   line-height: 32px;
@@ -62,6 +69,31 @@ section {
   justify-self: center;
   align-self: center;
   color: black;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  animation: imgZoom 3.5s ease infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+}
+
+img:hover {
+  animation-play-state: paused;
+}
+
+@keyframes imgZoom {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(10deg);
+  }
+  100% {
+    transform: scale(1.1) rotate(-10deg);
+  }
 }
 
 .health {
