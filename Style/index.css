@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url(/Images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 nav ul {
   display: inline-block;
 }
@@ -5,62 +14,81 @@ nav ul {
 nav li {
   display: inline-block;
 }
-.Logo {
-  margin-top: 37px;
-  margin-left: 97px;
-}
 
-.Diet {
+.Aboutus {
   margin-top: 37px;
-  margin-left: 320px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
+  margin-left: 260px;
   color: black;
+  font-size: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-self: center;
+  display: inline-block;
 }
 
-.Recipes,
+.Diet,
 .Yoga {
   margin-top: 37px;
-  margin-left: 29px;
+  margin-left: 50px;
   color: black;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-self: center;
+  display: inline-block;
 }
 
+.Aboutus:hover,
 .Diet:hover,
-.Recipes:hover,
 .Yoga:hover {
   cursor: pointer;
   background-color: #ff9900;
   transform: scale(1.2);
-  color: white;
-}
-section {
-  display: inline-block;
-  cursor: pointer;
+  color: black;
 }
 
-.Title {
-  font-size: 44px;
-  font-weight: bold;
-  margin-top: 116px;
-  margin-left: 145px;
-  width: 100%;
-  max-width: 518px;
-  height: 108px;
-  letter-spacing: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-.Info {
+.About {
   margin-top: 30px;
-  margin-left: 145px;
-  max-width: 583.48px;
+  margin-left: 300px;
+  max-width: 700.48px;
   width: 100%;
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.02em;
   font-family: "Poppins", sans-serif;
+  justify-self: center;
+  align-self: center;
+  color: black;
+}
+
+.health {
+  margin-top: 30px;
+  margin-left: 300px;
+  max-width: 700.48px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  font-family: "Poppins", sans-serif;
+  justify-self: center;
+  align-self: center;
+  color: black;
+}
+.Yogas {
+  margin-top: 30px;
+  margin-left: 300px;
+  max-width: 700.48px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  font-family: "Poppins", sans-serif;
+  justify-self: center;
+  align-self: center;
+  color: black;
 }
