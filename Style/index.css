@@ -1,12 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
-  position: relative;
   background-image: url(/Images/background.jpg);
-  background-size: cover;
-  background-position: center;
 }
-
 nav ul {
   display: inline-block;
 }
@@ -17,7 +11,7 @@ nav li {
 
 .Aboutus {
   margin-top: 37px;
-  margin-left: 260px;
+  margin-left: 30px;
   color: black;
   font-size: bold;
   font-family: "Poppins", sans-serif;
@@ -47,15 +41,19 @@ nav li {
 .Diet:hover,
 .Yoga:hover {
   cursor: pointer;
-  background-color: #ff9900;
+  background-color: #93c572;
   transform: scale(1.2);
   color: black;
 }
 
+section {
+  display: inline-block;
+}
+
 .About {
-  margin-top: 30px;
-  margin-left: 300px;
-  max-width: 700.48px;
+  margin-top: 1px;
+  margin-left: 40px;
+  max-width: 600px;
   width: 100%;
   font-size: 20px;
   line-height: 32px;
