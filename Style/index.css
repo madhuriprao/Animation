@@ -2,57 +2,44 @@ body {
   background-image: url(/Images/background.jpg);
 }
 nav ul {
-  display: inline-block;
+  display: flex;
+  list-style: none;
 }
 
 nav li {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-self: center;
   display: inline-block;
+  transition: all 0.9s ease-in-out;
 }
 
 .Aboutus {
   margin-top: 37px;
   margin-left: 30px;
-  color: black;
-  font-size: bold;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  justify-content: flex-start;
-  align-items: flex-end;
-  align-self: center;
-  display: inline-block;
 }
 
 .Diet,
 .Yoga {
   margin-top: 37px;
   margin-left: 50px;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  justify-content: flex-start;
-  align-items: flex-end;
-  align-self: center;
-  display: inline-block;
 }
 
-.Aboutus:hover {
-  cursor: pointer;
-  background-color: #93c572;
-  transform: scale(1.2);
-  color: black;
-  transition: all 0.9s ease-in-out;
-}
-
-.Diet:hover,
-.Yoga:hover {
+.nav-link:hover {
   cursor: pointer;
   background-color: #93c572;
   transform: scale(1.2);
   color: black;
 }
-
 section {
   display: inline-block;
 }
@@ -73,7 +60,7 @@ section {
 
 img {
   width: 400px;
-  height: 400px;
+  height: 60vh;
   object-fit: cover;
   animation: imgZoom 3.5s ease infinite;
   animation-direction: alternate;
@@ -98,7 +85,7 @@ img:hover {
 
 .health {
   margin-top: 30px;
-  margin-left: 300px;
+  margin: auto;
   max-width: 700.48px;
   width: 100%;
   font-size: 20px;
@@ -111,7 +98,7 @@ img:hover {
 }
 .Yogas {
   margin-top: 30px;
-  margin-left: 300px;
+  margin: auto;
   max-width: 700.48px;
   width: 100%;
   font-size: 20px;
